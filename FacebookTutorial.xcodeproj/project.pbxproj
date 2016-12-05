@@ -16,6 +16,7 @@
 		76CC50B01AC58F3A00F5E7C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CC50AF1AC58F3A00F5E7C3 /* Images.xcassets */; };
 		76CC50B31AC58F3A00F5E7C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76CC50B11AC58F3A00F5E7C3 /* LaunchScreen.xib */; };
 		76CC50BF1AC58F3A00F5E7C3 /* FacebookTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC50BE1AC58F3A00F5E7C3 /* FacebookTutorialTests.swift */; };
+		76CE73E71DF5E2C900D9EE97 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CE73E61DF5E2C900D9EE97 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		76CC50BD1AC58F3A00F5E7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76CC50BE1AC58F3A00F5E7C3 /* FacebookTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookTutorialTests.swift; sourceTree = "<group>"; };
 		76CC50CB1AC5906500F5E7C3 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		76CE73E61DF5E2C900D9EE97 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76CE73E71DF5E2C900D9EE97 /* FBSDKShareKit.framework in Frameworks */,
 				7629284C1AF7D5BC00E6B5EE /* Bolts.framework in Frameworks */,
 				7629284D1AF7D5BC00E6B5EE /* FBSDKCoreKit.framework in Frameworks */,
 				7629284E1AF7D5BC00E6B5EE /* FBSDKLoginKit.framework in Frameworks */,
@@ -127,6 +130,7 @@
 		76CC50C81AC58F4300F5E7C3 /* Facebook Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76CE73E61DF5E2C900D9EE97 /* FBSDKShareKit.framework */,
 				762928491AF7D5BC00E6B5EE /* Bolts.framework */,
 				7629284A1AF7D5BC00E6B5EE /* FBSDKCoreKit.framework */,
 				7629284B1AF7D5BC00E6B5EE /* FBSDKLoginKit.framework */,
